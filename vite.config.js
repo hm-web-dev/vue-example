@@ -14,6 +14,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
+  // if you were building a multi-page application, 
+  // you need to include this in the build or else 
+  // it won't include the html files in the build
   build: {
     rollupOptions: {
       input: {
