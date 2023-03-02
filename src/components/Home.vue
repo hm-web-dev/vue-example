@@ -40,11 +40,8 @@ export default {
 </script>
 
 <template>
-    <header>
-        <NavBar></NavBar>
-    </header>
-
     <body>
+        <NavBar></NavBar>
         <img :src="src" alt="hotdog">
         <div class="links">
             <!-- do you think you could wrap this better?-->
