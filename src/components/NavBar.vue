@@ -2,9 +2,6 @@
 import NavItem from './NavItem.vue'
 
 export default {
-    data() {
-
-    }, 
     components: {
         NavItem,
     }
@@ -12,30 +9,39 @@ export default {
 </script>
 
 <template>
-    <main>
-        <NavItem>
-            <img alt="Vue logo" class="logo" src="../assets/logo.svg" width="125" height="125" />
-            <a href="/" rel="noopener">pictureofhotdog.com</a>
-        </NavItem>
-        <NavItem>
-            <a href="/" rel="noopener">Home</a>
-        </NavItem>
+    <body>
+        <main>
+            <NavItem>
+                <img alt="Vue logo" class="logo" src="../assets/logo.svg" width="25" height="25" />
+                <a href="/" rel="noopener">pictureofhotdog.com</a>
+            </NavItem>
+            <NavItem>
+                <a href="/" rel="noopener">Home</a>
+            </NavItem>
+            
+            <NavItem>
+                <a href="/about.html" rel="noopener">About</a>
+            </NavItem>
+            
+            <NavItem>
+                <a href="/testimonials.html" rel="noopener">Testimonials</a>
+            </NavItem>
+            
+            <NavItem>
+                <a href="/statistics.html" rel="noopener">Statistics</a>
+            </NavItem>
+        </main>
+        <div class="end">
 
-        <NavItem>
-            <a href="#/about" rel="noopener">About</a>
-        </NavItem>
-
-        <NavItem>
-            <a href="#/testimonials" rel="noopener">Testimonials</a>
-        </NavItem>
-
-        <NavItem>
-            <a href="#/statistics" rel="noopener">Statistics</a>
-        </NavItem>
-    </main>
+            <NavItem>
+                <a href="/cart.html" rel="noopener">Cart</a>
+            </NavItem>
+        </div>
+        
+        </body>
 </template>
 
-<style>
+<style scoped>
 
 a,
 .green {
@@ -47,10 +53,16 @@ a,
 }
 
 @media (min-width: 1024px) {
-    main {
+    body {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between; /* end and start */
+    }
+
+    main, .end { 
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
     .logo {
