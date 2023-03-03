@@ -17,7 +17,7 @@ export default {
         <NavBar></NavBar>
 
     </body>
-    This is the About page. the hot dog is {{ hotdog }}. 
+    This is the About page. The hot dog is {{ hotdog }}. 
     You've dresssed the dog {{  numDresses }} times.
 </template>
 

@@ -15,8 +15,8 @@ export default defineConfig({
     }
   },
   // if you were building a multi-page application, 
-  // you need to include this in the build or else 
-  // it won't include the html files in the build
+  // you need to include this in the build options or else 
+  // it won't include the html files in hot reload
   build: {
     rollupOptions: {
       input: {
