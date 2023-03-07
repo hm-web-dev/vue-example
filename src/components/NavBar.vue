@@ -20,11 +20,11 @@ export default {
             </NavItem>
             
             <NavItem>
-                <a href="/about.html" rel="noopener">About</a>
+                <a href="/#/about" rel="noopener">About</a>
             </NavItem>
             
             <NavItem>
-                <a href="/testimonials.html" rel="noopener">Testimonials</a>
+                <a href="/#/testimonials" rel="noopener">Testimonials</a>
             </NavItem>
             
             <NavItem>
