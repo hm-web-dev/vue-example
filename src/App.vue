@@ -1,6 +1,9 @@
 <script>
 
+import { RouterLink, RouterView } from 'vue-router'
+
 // App is the PARENT COMPONENT of Home. 
+
 import Home from './components/Home.vue'
 import Testimonials from './components/Testimonials.vue'
 
@@ -42,10 +45,11 @@ export default {
 
 
 <template>
-  <component @change-data="someEvent" :is="currentView" :hotdog="hotdog" />
+  <RouterView></RouterView>
+  <!-- <component @change-data="someEvent" :is="currentView" :hotdog="hotdog" />
   <div class="center">
   You've dressed the dog {{ numDresses }} times!
-  </div>
+  </div> -->
 </template>
 
 <style scoped>
