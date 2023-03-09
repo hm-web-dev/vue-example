@@ -24,7 +24,7 @@ export default {
             </NavItem>
             
             <NavItem>
-                <a href="/testimonials.html" rel="noopener">Testimonials</a>
+                <a href="/#/testimonials" rel="noopener">Testimonials</a>
             </NavItem>
             
             <NavItem>
