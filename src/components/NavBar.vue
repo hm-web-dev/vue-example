@@ -13,14 +13,14 @@ export default {
         <main>
             <NavItem>
                 <img alt="Vue logo" class="logo" src="../assets/logo.svg" width="25" height="25" />
-                <a href="/" rel="noopener">pictureofhotdog.com</a>
+                <a href="/#/" rel="noopener">pictureofhotdog.com</a>
             </NavItem>
             <NavItem>
-                <a href="/" rel="noopener">Home</a>
+                <a href="/#/" rel="noopener">Home</a>
             </NavItem>
             
             <NavItem>
-                <a href="/about.html" rel="noopener">About</a>
+                <a href="/#/about" rel="noopener">About</a>
             </NavItem>
             
             <NavItem>
@@ -28,13 +28,13 @@ export default {
             </NavItem>
             
             <NavItem>
-                <a href="/statistics.html" rel="noopener">Statistics</a>
+                <a href="/#/statistics" rel="noopener">Statistics</a>
             </NavItem>
         </main>
         <div class="end">
 
             <NavItem>
-                <a href="/cart.html" rel="noopener">Cart</a>
+                <a href="/#/cart" rel="noopener">Cart</a>
             </NavItem>
         </div>
         
